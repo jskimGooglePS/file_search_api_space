@@ -1,0 +1,169 @@
+(.venv) root@junsu-kim:~/git/file-search-api# python3 -m file_search_api
+--- Starting File Search Setup for: ['assets/excel/Data_for_Test_v2.xlsx'] ---
+1. Creating File Search Store...
+Store ID: fileSearchStores/tonyragevaluationstore-63qhf5s58u4a
+ -> Pre-processing Excel file: Data_for_Test_v2.xlsx
+   -> Converted to temp file: /tmp/tmp3te7vxi4.txt
+['/tmp/tmp3te7vxi4.txt'] --- SOURCE FILE: Data_for_Test_v2.xlsx | SHEET: 1월 ---
+| 2025년 예산 계획 - category      | 2025년 예산 계획 - type   |   2025년 예산 계획 - 예산 - 1분기 | 2025년 예산 계획 - 예산 - 1분기.1   | 2025년 예산 계획 - 예산 - 1분기.2   |   2025년 예산 계획 - 예산 - Prime Day | 2025년 예산 계획 - 예산 - Prime Day.1   |   2025년 예산 계획 - 계획 - 목표 |   2025년 예산 계획 - 계획 - 1월 목표 | 2025년 예산 계획 - 계획 - Paid   |
+|:----------------------------|:---------------------|-------------------------:|:---------------------------|:---------------------------|-------------------------------:|:---------------------------------|------------------------:|---------------------------:|:--------------------------|
+| nan                         | nan                  |                      nan | 1월                         | 분기 내 비중                    |                            nan | 1월 내 비중                          |                     nan |                        nan | 목표                        |
+| Total                       | Total                |                   224126 | 466338                     | 0.53                       |                         281668 | 0.6                              |                   32574 |                       5646 | 13000                     |
+| A                           | Total                |                   123535 | 45077                      | 0.3648925405755454         |                          26099 | 0.5789870665749717               |                    1235 |                       3158 | 1492                      |
+| A                           | type_1               |                    70970 | 22354                      | 0.314978159785825          |                          13545 | 0.6059318242820076               |                    1235 |                        821 | 51                        |
+| A                           | type_2               |                    52565 | 22723                      | 0.4322838390564063         |                          12554 | 0.5524798662148483               |                     nan |                        nan | nan                       |
+| B                           | Total                |                   100591 | 52113                      | 0.5180682168384846         |                          29977 | 0.5752307485656171               |                   31339 |                       2135 | 3576                      |
+| B                           | type_1               |                    32155 | 22354                      | 0.6951951484994557         |                           6895 | 0.3084459157197817               |                    1235 |                        535 | 4567                      |
+| B                           | type_2               |                    32154 | 16544                      | 0.5145238539528519         |                          12345 | 0.7461919729206963               |                     354 |                        215 | 45876                     |
+| B                           | type_4               |                    36282 | 13215                      | 0.3642301967917976         |                           2145 | 0.1623155505107832               |                    4537 |                       8203 | 8782                      |
+| ※ 해당 자료는 아직 검토 중으로, 참고만 할 것 | type_4               |                      nan | nan                        | nan                        |                            nan | nan                              |                     nan |                        nan | nan                       |
+
+--- SOURCE FILE: Data_for_Test_v2.xlsx | SHEET: 2월 ---
+|   2026년 예산 계획 - group | 2026년 예산 계획 - category   |   2026년 예산 계획 - 그룹별 - 1분기 예산 |   2026년 예산 계획 - 카테고리별 - 1분기 예산 |   2026년 예산 계획 - 카테고리별 - 2월 |   2026년 예산 계획 - 카테고리별 - 분기 내 비중 |   2026년 예산 계획 - 카테고리별 - Prime Day |   2026년 예산 계획 - 카테고리별 - 2월 내 비중 |   2026년 예산 계획 - 목표 |   2026년 예산 계획 - Paid - 목표 |
+|----------------------:|:-------------------------|-----------------------------:|-------------------------------:|---------------------------:|--------------------------------:|----------------------------------:|--------------------------------:|-------------------:|--------------------------:|
+|                     1 | C                        |                        33714 |                          12353 |                       4077 |                        0.330041 |                              2609 |                        0.639931 |               1235 |                      1492 |
+|                     1 | D                        |                          nan |                          21351 |                       6545 |                        0.306543 |                              2997 |                        0.457907 |              53213 |                     32415 |
+|                     2 | E                        |                        14294 |                           5861 |                       4077 |                        0.695615 |                              2609 |                        0.639931 |               1235 |                      1492 |
+|                     2 | F                        |                          nan |                           8423 |                       6545 |                        0.777039 |                              2997 |                        0.457907 |              53213 |                     32415 |
+
+--- SOURCE FILE: Data_for_Test_v2.xlsx | SHEET: Image ---
+
+
+
+2. Uploading and Indexing file...Data_for_Test_v2.xlsx
+Operation ID: name='fileSearchStores/tonyragevaluationstore-63qhf5s58u4a/upload/operations/datafortestv2xlsxprocessedt-l6hol5v1ybju' metadata=None done=None error=None response=UploadToFileSearchStoreResponse(
+  document_name='fileSearchStores/tonyragevaluationstore-63qhf5s58u4a/documents/datafortestv2xlsxprocessedt-l6hol5v1ybju',
+  parent='fileSearchStores/tonyragevaluationstore-63qhf5s58u4a'
+)
+3. Waiting for processing to complete (Polling)...
+File name: Data_for_Test_v2.xlsx, OP: name='fileSearchStores/tonyragevaluationstore-63qhf5s58u4a/upload/operations/datafortestv2xlsxprocessedt-l6hol5v1ybju' metadata=None done=None error=None response=UploadToFileSearchStoreResponse(
+  document_name='fileSearchStores/tonyragevaluationstore-63qhf5s58u4a/documents/datafortestv2xlsxprocessedt-l6hol5v1ybju',
+  parent='fileSearchStores/tonyragevaluationstore-63qhf5s58u4a'
+)
+File Data_for_Test_v2.xlsx indexed successfully (Status: ACTIVE).
+4. Cleaning up temporary files...
+
+--- Starting Evaluation Loop ---
+
+Processing Q1/17: A 카테고리의 1분기 예산이 얼마야?
+Metadata: {'Answer': 'A 카테고리의 2025년 1분기 총예산은 123,535입니다. 이 카테고리는 두 가지 하위 유형으로 나뉩니다:\n*   **type_1**: 1분기 예산 70,970\n*   **type_2**: 1분기 예산 52,565', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=108 candidates_tokens_details=None prompt_token_count=595 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=595\n)] thoughts_token_count=463 tool_use_prompt_token_count=858 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=858\n)] total_token_count=2024 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 8.82s
+
+Processing Q2/17: type_1에 대한 1월 예산 금액을 카테고리별로 알려줘
+Metadata: {'Answer': '2025년 1월의 type_1에 대한 카테고리별 예산 금액은 다음과 같습니다.\n\n*   **카테고리 A:** 22,354\n*   **카테고리 B:** 22,354', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=84 candidates_tokens_details=None prompt_token_count=600 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=600\n)] thoughts_token_count=159 tool_use_prompt_token_count=784 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=784\n)] total_token_count=1627 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 6.76s
+
+Processing Q3/17: B 카테고리에서 type_4의 prime day에 대한 예산 금액이 어떻게 되는지 알려줘
+Metadata: {'Answer': 'B 카테고리 내 type_4의 Prime Day 예산은 2,145입니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=46 candidates_tokens_details=None prompt_token_count=603 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=603\n)] thoughts_token_count=234 tool_use_prompt_token_count=860 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=860\n)] total_token_count=1743 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 6.78s
+
+Processing Q4/17: 분기 내 1월 비중이 가장 큰 category/type이 뭐야?
+Metadata: {'Answer': '분석 결과, 1분기 예산 대비 1월 예산 비중이 가장 큰 category/type은 **B/type_1**입니다.\n\n해당 카테고리의 분기 내 1월 비중은 약 **69.5%** 입니다.\n\n아래는 각 category/type별 분기 내 1월 비중입니다:\n*   **B / type_1**: 69.5%\n*   B / type_2**: 51.5%\n*   A / type_2**: 43.2%\n*   B / type_4**: 36.4%\n*   A / type_1**: 31.5%', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=182 candidates_tokens_details=None prompt_token_count=597 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=597\n)] thoughts_token_count=1004 tool_use_prompt_token_count=1036 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=1036\n)] total_token_count=2819 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 14.78s
+
+Processing Q5/17: type_2(category A)의 paid 목표 값이 어떻게 돼?
+Metadata: {'Answer': '2025년 예산 계획에서 category A, type_2의 paid 목표 값은 지정되어 있지 않아 해당 값이 없습니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=47 candidates_tokens_details=None prompt_token_count=594 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=594\n)] thoughts_token_count=110 tool_use_prompt_token_count=724 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=724\n)] total_token_count=1475 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 6.10s
+
+Processing Q6/17: 목표 금액 대비 paid 목표가 가장 큰 category 및 type이 뭐야?
+Metadata: {'Answer': "목표 금액 대비 'Paid' 목표가 가장 큰 Category 및 Type은 **Category B, type_2** 입니다.\n\n해당 항목의 상세 값은 다음과 같습니다.\n*   **Category:** B\n*   **Type:** type_2\n*   **계획 - 목표 (목표 금액):** 354\n*   **계획 - Paid - 목표 (Paid 목표):** 45,876", 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=115 candidates_tokens_details=None prompt_token_count=595 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=595\n)] thoughts_token_count=1115 tool_use_prompt_token_count=783 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=783\n)] total_token_count=2608 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 13.81s
+
+Processing Q7/17: prime day의 1월 내 비중이 가장 큰 경우가 뭐야?
+Metadata: {'Answer': '2025년 예산 계획에 따르면, Prime Day의 1월 내 비중이 가장 큰 경우는 **B 카테고리의 type_2**입니다.\n\n상세한 비중은 다음과 같습니다:\n\n*   **B 카테고리 type_2**: 1월 내 비중 74.6%\n*   **A 카테고리 type_1**: 1월 내 비중 60.6%\n*   **B 카테고리 Total**: 1월 내 비중 57.5%\n*   **A 카테고리 Total**: 1월 내 비중 57.9%\n*   **A 카테고리 type_2**: 1월 내 비중 55.2%\n*   **B 카테고리 type_1**: 1월 내 비중 30.8%\n*   **B 카테고리 type_4**: 1월 내 비중 16.2%', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=236 candidates_tokens_details=None prompt_token_count=595 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=595\n)] thoughts_token_count=114 tool_use_prompt_token_count=729 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=729\n)] total_token_count=1674 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 7.93s
+
+Processing Q8/17: A 카테고리의 25년 1월 total 목표를 알려줘
+Metadata: {'Answer': 'A 카테고리의 2025년 1월 total 목표는 3158입니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=49 candidates_tokens_details=None prompt_token_count=597 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=597\n)] thoughts_token_count=208 tool_use_prompt_token_count=830 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=830\n)] total_token_count=1684 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 8.26s
+
+Processing Q9/17: 25년 예산 자료는 검토 완료한 거야? 신뢰할 수 있는 자료야?
+Metadata: {'Answer': '아니요, 25년 예산 자료는 아직 검토가 완료되지 않았습니다. 따라서 현재 자료는 참고용으로만 활용해야 합니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=59 candidates_tokens_details=None prompt_token_count=601 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=601\n)] thoughts_token_count=180 tool_use_prompt_token_count=807 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=807\n)] total_token_count=1647 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 6.13s
+
+Processing Q10/17: 2026년에는 1분기 paid 목표가 어떻게 산정되어 있어?
+Metadata: {'Answer': '2026년 1분기 Paid Media 목표는 다음과 같이 설정되어 있습니다.\n\n**카테고리별 목표:**\n*   **C:** MQLs 4,077개, SQLs 2,609개, Opportunities 1,235개\n*   **D:** MQLs 6,545개, SQLs 2,997개, Opportunities 53,213개\n*   **E:** MQLs 4,077개, SQLs 2,609개, Opportunities 1,235개\n*   **F:** MQLs 6,545개, SQLs 2,997개, Opportunities 53,213개\n\n해당 자료는 "2026년 예산 계획 - Paid - 목표" 항목에서 확인되었습니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=217 candidates_tokens_details=None prompt_token_count=599 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=599\n)] thoughts_token_count=202 tool_use_prompt_token_count=824 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=824\n)] total_token_count=1842 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 7.75s
+
+Processing Q11/17: 카테고리 C의 목표 값을 알고 싶어
+Metadata: {'Answer': '카테고리 C의 2026년 예산 계획 목표값은 1,235입니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=45 candidates_tokens_details=None prompt_token_count=591 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=591\n)] thoughts_token_count=175 tool_use_prompt_token_count=785 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=785\n)] total_token_count=1596 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 6.62s
+
+Processing Q12/17: 프라임데이에 산정된 2월 내 비중을 알려줘
+Metadata: {'Answer': '프라임데이(Prime Day)에 산정된 2월 내 비중은 카테고리별로 다음과 같습니다.\n\n| 카테고리 | 2월 내 비중 |\n| :--- | :--- |\n| C | 0.639931 |\n| D | 0.457907 |\n| E | 0.639931 |\n| F | 0.457907 |\n\n이 자료는 아직 검토 중인 내용이므로 참고용으로만 사용하시기 바랍니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=147 candidates_tokens_details=None prompt_token_count=597 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=597\n)] thoughts_token_count=118 tool_use_prompt_token_count=736 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=736\n)] total_token_count=1598 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 6.19s
+
+Processing Q13/17: 그룹1의 1분기 예산이 얼마야?
+Metadata: {'Answer': '2026년 예산 계획에 따르면 그룹1의 1분기 예산은 제공된 자료에 명시되어 있지 않습니다. 하지만 카테고리별 1분기 예산은 확인 가능합니다.\n\n예를 들어, 그룹1에 속하는 카테고리 C의 1분기 예산은 33,714이며, 카테고리 D의 1분기 예산은 제공된 자료에서 찾을 수 없습니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=121 candidates_tokens_details=None prompt_token_count=593 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=593\n)] thoughts_token_count=184 tool_use_prompt_token_count=798 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=798\n)] total_token_count=1696 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 8.55s
+
+Processing Q14/17: 카테고리 B의 25년 1분기 예산과 카테고리 C의 26년 1분기 예산 차가 얼마나 돼?
+Metadata: {'Answer': '`Data_for_Test_v2.xlsx` 파일에 따르면, 카테고리 B의 2025년 1분기 예산과 카테고리 C의 2026년 1분기 예산 차이는 **66,877**입니다.\n\n세부 정보는 다음과 같습니다:\n*   **카테고리 B의 2025년 1분기 예산:** 100,591\n*   **카테고리 C의 2026년 1분기 예산:** 33,714\n\n따라서 두 예산의 차액은 100,591에서 33,714를 뺀 66,877입니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=217 candidates_tokens_details=None prompt_token_count=618 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=618\n)] thoughts_token_count=890 tool_use_prompt_token_count=919 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=919\n)] total_token_count=2644 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 12.17s
+
+Processing Q15/17: Percent Stacked Bar Chart에 Betty의 Apple juice 비율이 어떻게 돼?
+Metadata: {'Answer': "제공해주신 파일에서 'Percent Stacked Bar Chart'에 대한 Betty의 Apple juice 비율 정보를 찾을 수 없습니다. 문서에는 2025년과 2026년 예산 계획에 대한 데이터만 포함되어 있는 것으로 보입니다.", 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=77 candidates_tokens_details=None prompt_token_count=595 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=595\n)] thoughts_token_count=373 tool_use_prompt_token_count=831 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=831\n)] total_token_count=1876 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 8.79s
+
+Processing Q16/17: 명함디자인은 작업 비율이 얼마야?
+Metadata: {'Answer': '제공된 파일에서는 명함 디자인의 작업 비율에 대한 정보를 찾을 수 없습니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=36 candidates_tokens_details=None prompt_token_count=591 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=591\n)] thoughts_token_count=82 tool_use_prompt_token_count=691 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=691\n)] total_token_count=1400 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 5.19s
+
+Processing Q17/17: 인쇄 작업 비율을 알려줘
+Metadata: {'Answer': '제공된 파일에서 "인쇄 작업 비율"에 대한 직접적인 정보는 찾을 수 없습니다. 하지만, 파일에는 2025년과 2026년 예산 계획과 관련된 다양한 데이터가 포함되어 있습니다.\n\n예를 들어, 2025년 1분기 예산 계획에서 카테고리별, 타입별 예산과 분기 내 비중, Prime Day 비중 등을 확인할 수 있습니다. 또한 2026년 예산 계획에서는 그룹별, 카테고리별 1분기 및 2월 예산과 그 비중에 대한 데이터가 있습니다.\n\n만약 "인쇄 작업"이 특정 카테고리나 타입에 해당한다면 해당 데이터에서 비율을 찾을 수 있을 것입니다. 더 정확한 답변을 원하시면 "인쇄 작업"이 어떤 항목에 해당하는지 구체적으로 알려주시기 바랍니다.', 'Citations_Summary': 'No Citation Found', 'Usage_Metadata': "cache_tokens_details=None cached_content_token_count=None candidates_token_count=206 candidates_tokens_details=None prompt_token_count=587 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=587\n)] thoughts_token_count=222 tool_use_prompt_token_count=824 tool_use_prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=824\n)] total_token_count=1839 traffic_type=None"}
+Citations: ['Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+Citations: ['Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt', 'Data_for_Test_v2.xlsx_processed.txt']
+[SUCCESS] Time: 8.63s
+
+[FINISHED] Evaluation results saved to: evaluation_results_cus_2.5_2.xlsx
+
+--- Cleanup: Deleting Store fileSearchStores/tonyragevaluationstore-63qhf5s58u4a ---
+Error deleting store: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'Cannot delete non-empty FileSearchStore', 'status': 'FAILED_PRECONDITION'}}
