@@ -208,5 +208,4 @@ __marimo__/
 
 # Data
 data/**/*
-
-!**.gitkeep
+!.gitkeep
